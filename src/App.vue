@@ -1,27 +1,28 @@
 <template>
   <div id="app">
-    
+    <TheNavbar></TheNavbar>
+    <MainContent></MainContent>
+    <TheFooter></TheFooter>
+    <SignUp></SignUp>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TheNavbar from './components/TheNavbar.vue'
+import MainContent from './components/MainContent.vue'
+import TheFooter from './components/TheFooter.vue'
+import SignUp from './components/SignUp.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TheNavbar,
+    MainContent,
+    SignUp,
+    TheFooter
   }
 }
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
