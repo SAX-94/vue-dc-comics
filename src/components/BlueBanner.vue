@@ -55,6 +55,11 @@ export default {
 .section {
     background-color: #3182F9;
     color: white;
+    width: 100%;
+}
+
+.row:last-child {
+    width: 93%;
 }
 
 .w-50 {
