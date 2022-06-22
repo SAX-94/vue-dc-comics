@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <TheNavbar></TheNavbar>
+    <JumboTron></JumboTron>
     <MainContent></MainContent>
     <BlueBanner></BlueBanner>
     <TheFooter></TheFooter>
@@ -14,6 +15,7 @@ import MainContent from './components/MainContent.vue'
 import TheFooter from './components/TheFooter.vue'
 import SignUp from './components/SignUp.vue'
 import BlueBanner from './components/BlueBanner.vue'
+import JumboTron from './components/JumboTron.vue'
 
 export default {
   name: 'App',
@@ -22,7 +24,8 @@ export default {
     MainContent,
     SignUp,
     TheFooter,
-    BlueBanner
+    BlueBanner,
+    JumboTron
 }
 }
 </script>
