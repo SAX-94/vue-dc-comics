@@ -2,6 +2,7 @@
   <div id="app">
     <TheNavbar></TheNavbar>
     <MainContent></MainContent>
+    <BlueBanner></BlueBanner>
     <TheFooter></TheFooter>
     <SignUp></SignUp>
   </div>
@@ -12,6 +13,7 @@ import TheNavbar from './components/TheNavbar.vue'
 import MainContent from './components/MainContent.vue'
 import TheFooter from './components/TheFooter.vue'
 import SignUp from './components/SignUp.vue'
+import BlueBanner from './components/BlueBanner.vue'
 
 export default {
   name: 'App',
@@ -19,8 +21,9 @@ export default {
     TheNavbar,
     MainContent,
     SignUp,
-    TheFooter
-  }
+    TheFooter,
+    BlueBanner
+}
 }
 </script>
 
