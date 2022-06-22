@@ -16,7 +16,9 @@ export default {
 
 <style lang="scss" scoped>
 .jumbo {
-    height: 400px;
+    min-height: 500px;
+    width: 100%;
+    background-position-x: center;
     background-image: url('/public/img/jumbotron.jpg');
 }
 
