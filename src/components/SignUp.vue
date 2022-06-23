@@ -31,7 +31,7 @@ export default {
 
 <style lang="scss" scoped>
 h3 {
-    color: rgb(60, 60, 218);
+    color: #5385f1;
     font-size: 1.2rem;
 }
 
@@ -41,7 +41,7 @@ h3 {
 
 .my-btn {
     color: white;
-    border: 2px solid rgb(60, 60, 218);
+    border: 2px solid #5385f1;
     cursor: pointer;
     display: inline-block;
     padding: .5rem 1rem;
