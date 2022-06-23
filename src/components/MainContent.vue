@@ -1,5 +1,5 @@
 <template>
-    <div class="products-container">
+    <div class="products-container px-5 bg-dark">
         <div class="row row-cols-6">
             <div class="col py-3" v-for="product in products" :key="product.series">
                 <ProductCard :card-title="product.series" :imgUrl="product.thumb">
